@@ -30,8 +30,8 @@ elif comm=='4':
 	no=int(input("enter no. of files you want to view data"))
 	li=[]
 	for i in range(no):
-		li=input("enter file name")
-		li.append(li) #error line
+		li1=input("enter file name")
+		li.append(li1) #error line
 	print(li)
 	for i in li:
 		f=open(i,'r')
